@@ -1,0 +1,11 @@
+The `calc()` function requires spaces between the operator and the value for correct calculation.  The corrected CSS adds the necessary spaces.  For example:
+
+Incorrect:
+```css
+.element{width:calc(100%-5px);}
+```
+
+Correct:
+```css
+.element{width:calc(100% - 5px);}
+```
